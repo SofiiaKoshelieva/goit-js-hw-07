@@ -29,9 +29,11 @@ function openLightbox() {
             captionSelector: 'img',
             captionType: 'attr',
             captionsData: 'alt',
-            captionPosition: 'bottom',
-            captionDelay: 250,
+            captionPosition: 'top',
+            captionDelay: 900,
             enableKeyboard: true,
+            maxZoom: 0,
+            fadeSpeed: 700,
         });
     lightbox.open();
 };
